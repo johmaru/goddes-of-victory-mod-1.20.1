@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model":  "goddes-of-victory-mod:block/rapture_scrap_block", "Y": 90},
+    "facing=east": {"model":  "goddes-of-victory-mod:block/rapture_scrap_block", "Y": 180},
+    "facing=south": {"model":  "goddes-of-victory-mod:block/rapture_scrap_block", "Y": 270},
+    "facing=west": {"model":  "goddes-of-victory-mod:block/rapture_scrap_block", "Y": 0}
+  }
+}

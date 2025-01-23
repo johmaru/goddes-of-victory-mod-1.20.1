@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "goddes-of-victory-mod",
+	"version": "${version}",
+	"name": "Goddes Of Victory mod",
+	"description": "This mod is a adds any items and enemy from Goddes Of Victory to Minecraft",
+	"authors": [
+		"Johmaru"
+	],
+	"contact": {
+		"homepage": "None",
+		"sources": "None"
+	},
+	"license": "MIT",
+	"icon": "assets/goddes-of-victory-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.johmaru.GoddesOfVictoryMod"
+		],
+		"client": [
+			"com.johmaru.GoddesOfVictoryModClient"
+		],
+		"fabric-datagen": [
+			"com.johmaru.GoddesOfVictoryModDataGenerator"
+		]
+	},
+	"mixins": [
+		"goddes-of-victory-mod.mixins.json",
+		{
+			"config": "goddes-of-victory-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
