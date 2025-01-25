@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "get_rapture_scrap": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goddes-of-victory-mod:rapture_scrap_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "text": "You have gotten Rapture Scrap"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "goddes-of-victory-mod:rapture_scrap"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Get Rapture Scrap"
+    }
+  },
+  "requirements": [
+    [
+      "get_rapture_scrap"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
